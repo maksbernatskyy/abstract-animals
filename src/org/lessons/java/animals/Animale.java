@@ -21,7 +21,7 @@ public abstract class Animale {
     }
 
     public void setNome(String nome) {
-        if(nome != null) {
+        if (nome != null) {
             this.nome = nome;
         }
     }
@@ -41,7 +41,7 @@ public abstract class Animale {
     }
 
     public void setColore(String colore) {
-        if(colore != null) {
+        if (colore != null) {
             this.colore = colore;
         }
     }
