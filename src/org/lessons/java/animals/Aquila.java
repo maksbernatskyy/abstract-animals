@@ -2,7 +2,9 @@ package org.lessons.java.animals;
 
 import java.math.BigDecimal;
 
-public class Aquila extends Animale {
+import interfaces.Vola;
+
+public class Aquila extends Animale implements Vola {
     private float altezza;
 
     public Aquila(String nome, BigDecimal peso, String colore, float altezza) {
@@ -28,5 +30,10 @@ public class Aquila extends Animale {
     @Override
     public void mangia() {
         System.out.println("Carne");
+    }
+
+    @Override
+    public void vola() {
+        System.out.println("Sto volando");
     }
 }

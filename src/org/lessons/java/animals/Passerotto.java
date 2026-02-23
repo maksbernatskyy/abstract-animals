@@ -2,7 +2,9 @@ package org.lessons.java.animals;
 
 import java.math.BigDecimal;
 
-public class Passerotto extends Animale {
+import interfaces.Vola;
+
+public class Passerotto extends Animale implements Vola {
     private float aperturaAlare;
 
     public Passerotto(String nome, BigDecimal peso, String colore, float aperturaAlare) {
@@ -26,5 +28,10 @@ public class Passerotto extends Animale {
 
     public void mangia() {
         System.out.println("Vermi");
+    }
+
+    @Override
+    public void vola() {
+        System.out.println("Sto volando");
     }
 }
