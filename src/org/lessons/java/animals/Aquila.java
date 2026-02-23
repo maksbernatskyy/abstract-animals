@@ -1,5 +1,5 @@
 package org.lessons.java.animals;
 
-public class Aquila {
+public class Aquila extends Animale {
 
 }

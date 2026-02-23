@@ -1,5 +1,5 @@
 package org.lessons.java.animals;
 
-public class Delfino {
+public class Delfino extends Animale {
 
 }

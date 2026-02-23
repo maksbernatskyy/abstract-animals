@@ -15,6 +15,37 @@ public abstract class Animale {
         this.colore = colore;
     }
 
+    // Nome
+    public String getNome() {
+        return this.nome;
+    }
+
+    public void setNome(String nome) {
+        if(nome != null) {
+            this.nome = nome;
+        }
+    }
+
+    // Peso
+    public BigDecimal getPeso() {
+        return this.peso;
+    }
+
+    public void setPeso(BigDecimal peso) {
+        this.peso = peso;
+    }
+
+    // Colore
+    public String getColore() {
+        return this.colore;
+    }
+
+    public void setColore(String colore) {
+        if(colore != null) {
+            this.colore = colore;
+        }
+    }
+
     // Dormire uguale per tutti
     public void dormi() {
         System.out.println("Zzz");
