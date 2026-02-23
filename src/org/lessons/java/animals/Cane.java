@@ -13,6 +13,18 @@ public class Cane extends Animale {
         this.razza = razza;
     }
     
+    // Razza
+    public String getRazza() {
+        return this.razza;
+    }
+
+    public void setRazza(String razza) {
+        if(razza != null) {
+            this.razza = razza;
+        }
+    }
+
+
     @Override
     public void verso() {
         System.out.println("Abbaia");
