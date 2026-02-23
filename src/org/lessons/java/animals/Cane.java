@@ -12,6 +12,14 @@ public class Cane extends Animale {
         super(nome, peso, colore);
         this.razza = razza;
     }
-
     
+    @Override
+    public void verso() {
+        System.out.println("Abbaia");
+    }
+
+    @Override
+    public void mangia() {
+        System.out.println("Di tutto");
+    }
 }
