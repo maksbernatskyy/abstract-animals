@@ -1,6 +1,5 @@
 package org.lessons.java.animals;
 
-import java.lang.invoke.MethodHandleInfo;
 import java.math.BigDecimal;
 
 public class Cane extends Animale {

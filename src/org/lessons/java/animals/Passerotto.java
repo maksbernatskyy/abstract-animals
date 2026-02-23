@@ -1,5 +1,30 @@
 package org.lessons.java.animals;
 
-public class Passerotto extends Animale {
+import java.math.BigDecimal;
 
+public class Passerotto extends Animale {
+    private float aperturaAlare;
+
+    public Passerotto(String nome, BigDecimal peso, String colore, float aperturaAlare) {
+        super(nome, peso, colore);
+        this.aperturaAlare = aperturaAlare;
+    }
+
+    public float getAperturaAlare() {
+        return this.aperturaAlare;
+    }
+
+    public void setAparturaAlare(float aperturaAlare) {
+        if(aperturaAlare > 0) {
+            this.aperturaAlare = aperturaAlare;
+        }
+    }
+
+    public void verso() {
+        System.out.println("Cinguetta");
+    }
+
+    public void mangia() {
+        System.out.println("Vermi");
+    }
 }
